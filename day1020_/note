@@ -1,0 +1,16 @@
+create table tblRegister(
+	id varchar2(20) primary key,
+	pwd varchar2(20) not null,
+	name varchar2(20) null,
+	num1 char(6) null,
+	num2 char(7) null,
+	email varchar2(30) null,
+	phone varchar2(30) null,
+	zipcode char(5) null,
+	address varchar2(60) null,
+	job varchar2(30) null
+);
+
+insert into tblRegister(id,pwd,name) values('kim','kim','김유신');
+insert into tblRegister(id,pwd,name) values('lee','lee','이순신');
+insert into tblRegister(id,pwd,name) values('hong','hong','홍길동');
